@@ -15,3 +15,5 @@ echo "Updating permissions"
 echo "Cleaning up"
 rm aws-iam-authenticator
 echo "Done!"
+
+
