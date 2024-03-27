@@ -1,9 +1,10 @@
 # Movie Picture Pipeline
 
 ## Developer Notes:
-All Workflows are under .git/workflows.
-Used BAT script to use appropriate IAM authenticator for my windows machine 
-Attached the screenshots of the workflows. 
+
+1. All Workflows are under .git/workflows.
+2. Used BAT script to use appropriate IAM authenticator for my windows machine 
+3. Attached the screenshots of the workflows. 
 
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
 
