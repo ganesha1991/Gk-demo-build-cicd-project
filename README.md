@@ -4,7 +4,7 @@ You've been brought on as the DevOps resource for a development team that manage
 
 The team's project is comprised of 2 applications.
 
-1. A frontend UI written in Typescript, using the React framework
+1. A frontend UI written in Typescript, using the React framework.
 2. A backend API written in Python using the Flask framework.
 
 You'll find 2 folders, one named `frontend` and one named `backend`, where each application's source code is maintained. Your job is to use the team's [existing documentation](#frontend-development-notes) and create CI/CD pipelines to meet the teams' needs.
