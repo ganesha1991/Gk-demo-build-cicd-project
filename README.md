@@ -1,5 +1,10 @@
 # Movie Picture Pipeline
 
+## Developer Notes:
+All Workflows are under .git/workflows.
+Used BAT script to use appropriate IAM authenticator for my windows machine 
+Attached the screenshots of the workflows. 
+
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
 
 The team's project is comprised of 2 applications.
@@ -12,7 +17,6 @@ You'll find 2 folders, one named `frontend` and one named `backend`, where each 
 ## Deliverables
 
 ### Frontend
-.
 1. A Continuous Integration workflow that:
    1. Runs on `pull_requests` against the `main` branch,only when code in the frontend application changes.
    2. Is able to be run on-demand (i.e. manually without needing to push code)
