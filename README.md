@@ -12,7 +12,7 @@ You'll find 2 folders, one named `frontend` and one named `backend`, where each 
 ## Deliverables
 
 ### Frontend
-
+.
 1. A Continuous Integration workflow that:
    1. Runs on `pull_requests` against the `main` branch,only when code in the frontend application changes.
    2. Is able to be run on-demand (i.e. manually without needing to push code)
