@@ -1,4 +1,4 @@
-# Movie Picture Pipeline
+# Movie Picture Pipeline.
 
 ## Developer Notes:
 
