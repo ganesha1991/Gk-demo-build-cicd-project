@@ -85,7 +85,7 @@ jobs:
     - name: Build and Push Docker Image
       working-directory: starter/frontend
       env:
-        IMAGE_TAG: ${GITHUB_SHA::7}
+        IMAGE_TAG: ${{GITHUB_SHA::7}}
         REPO_NAME: frontend
       run: |
         docker build --build-arg=REACT_APP_MOVIE_API_URL=http://localhost:5000 --tag 779811815192.dkr.ecr.us-east-1.amazonaws.com/$REPO_NAME:$IMAGE_TAG .
@@ -100,7 +100,7 @@ jobs:
     - name: Deploy Docker Image to Amazon EKS
       working-directory: starter/frontend/k8s
       env:
-        IMAGE_TAG: ${GITHUB_SHA::7}
+        IMAGE_TAG: ${{GITHUB_SHA::7}}
         REPO_NAME: frontend
       run: |
           kustomize edit set image frontend=779811815192.dkr.ecr.us-east-1.amazonaws.com/$REPO_NAME:$IMAGE_TAG
